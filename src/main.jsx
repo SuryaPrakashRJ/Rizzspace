@@ -9,7 +9,7 @@ import TermCondition from "./Component/TermAndCondition/TermCondition";
 import PrivacyPolicy from "./Component/PrivacyPolicy/PrivacyPolicy";
 import ServicePage from "./pages/ServicePage";
 import BlogPage from "./pages/BlogPage";
-import AboutPage from "./pages/AboutPage"
+import AboutPage from "./pages/AboutPage";
 
 let browerRouter = createBrowserRouter([
   {

@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Bebas+Neue&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Montserrat:wght@700;800;900&family=Nunito+Sans:opsz,wght@6..12,700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,4 +19,74 @@
 
 .html {
   scroll-behavior: smooth;
+}
+
+.ant-collapse-header-text {
+  color: #fff;
+  text-align: start;
+  font-family: "Alegreya Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.ant-collapse-expand-icon {
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160px;
+}
+
+.anticon anticon-plus icons ant-collapse-arrow {
+  background-color: aqua;
+  font-size: 50px;
+}
+
+.Moral {
+  text-align: center;
+  font-family: "Alegreya Sans";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(88deg, #5e27fb 0%, #ff1dc0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Heading {
+  color: #fff;
+  text-align: center;
+  font-family: 'Gill Sans MT';
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120px;
+}
+
+@media screen and (max-width: 550px) {
+  .Moral {
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .HeroBackground {
+    background: linear-gradient(90deg, #3c43ff 0%, #ff278f 100%);
+    filter: blur(350px);
+  }
+
+  .Heading {
+    color: #fff;
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+  }
 }
