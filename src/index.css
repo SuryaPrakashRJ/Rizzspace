@@ -6,22 +6,22 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
+:root{
   --primary-color: #000;
   --poppins: "Poppins", sans-serif;
 }
 
-.html {
+.html{
   scroll-behavior: smooth;
 }
 
-.ant-collapse-header-text {
+.ant-collapse-header-text{
   color: #fff;
   text-align: start;
   font-family: "Alegreya Sans";
@@ -31,7 +31,7 @@
   line-height: 60px;
 }
 
-.ant-collapse-expand-icon {
+.ant-collapse-expand-icon{
   color: #fff;
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
