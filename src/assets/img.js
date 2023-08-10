@@ -1,0 +1,1 @@
+export const logo = "https://res.cloudinary.com/dsq5spft3/image/upload/v1691309297/Rizzspace/logo.svg";

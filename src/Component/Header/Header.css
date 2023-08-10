@@ -16,12 +16,12 @@
   left: 0;
   z-index: 9999;
   background-color: transparent;
-  background-color: #fff;
-  color: #000;
-  background: rgba(255, 255, 255, 0.75);
+  background-color: #000;
+  color: #fff;
+  /* background: rgba(255, 255, 255, 0.75);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 255, 255, 0.375);
+  border: 1px solid rgba(255, 255, 255, 0.375); */
 }
 
 .Nav-bar {
@@ -39,7 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .Nav-logo {
@@ -203,7 +203,7 @@
   .Nav-a:hover {
     color: #fff;
   }
-  
+
   .Nav-bar-icon {
     display: block;
     width: 10%;

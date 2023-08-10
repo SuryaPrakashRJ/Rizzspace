@@ -1,0 +1,11 @@
+.HeroSection {
+  background: linear-gradient(88deg, #fb8027 0%, #ff1d6e 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.HeroBackground {
+  background: linear-gradient(90deg, #3c43ff 0%, #ff278f 100%);
+  filter: blur(350px);
+}
