@@ -9,9 +9,9 @@ const Body = () => {
     <>
       <HeroSection />
       <WhatWeOffer />
+      <Moral />
+      <Accordion />
       <ContactUsForm />
-      <Moral/>
-      <Accordion/>
     </>
   );
 };
