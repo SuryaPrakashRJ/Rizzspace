@@ -1,0 +1,70 @@
+.card {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.img-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--img-overlay);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.img-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.img-overlay:hover {
+  opacity: 1;
+}
+
+.img-overlay:hover > * {
+  transform: translateY(0);
+}
+
+.img-overlay-name {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 3.8px;
+  line-height: 26.0333px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.img-overlay-tilte {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  line-height: 15.6px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  outline-color: rgb(255, 255, 255);
+  outline-style: none;
+  outline-width: 0px;
+  text-transform: uppercase;
+}
