@@ -3,6 +3,7 @@ import HeroSection from "../Component/HeroSection/HeroSection";
 import ContactUsForm from "../Component/ContactUsForm/ContactUsForm";
 import WhatWeOffer from "../Component/WhatWeOffer/WhatWeOffer";
 import Moral from "../Component/Moral/Moral";
+import Project from "../Component/Project/Project";
 
 const Body = () => {
   return (
@@ -10,6 +11,7 @@ const Body = () => {
       <HeroSection />
       <WhatWeOffer />
       <Moral />
+      <Project />
       <Accordion />
       <ContactUsForm />
     </>
