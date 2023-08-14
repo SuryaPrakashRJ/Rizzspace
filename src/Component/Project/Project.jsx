@@ -31,15 +31,15 @@ let TrainerData = [
 const Project = () => {
   return (
     <>
-      <section className="py-10">
+      <section className="md:py-10">
         <div className="2xl:container mx-auto">
-        <div className="grid grid-cols-1 w-[90%] mx-auto">
+        <div className="md:grid md:grid-cols-1 w-[90%] mx-auto">
             <div className="flex flex-col justify-center items-center text-center">
-              <h2 className="Heading font-medium">Our Works</h2>
+              <h2 className="Heading ">Our Works</h2>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-1 w-[90%] mx-auto min-h-[820px]">
+          <div className="grid grid-cols-1 w-[90%] mx-auto">
             {TrainerData.map((e, index) => {
               return (
                 <>

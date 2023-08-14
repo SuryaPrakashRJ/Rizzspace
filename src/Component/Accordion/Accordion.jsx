@@ -41,9 +41,9 @@ const Accordion = () => {
   return (
     <>
       <section className=" bg-[#000000]">
-        <div className="container mx-auto bg-[]">
+        <div className="container mx-auto">
           <div className="grid grid-cols-1 w-[90%] mx-auto">
-            <h3 className="Heading text-center">OUR VALUE PROPOSITION</h3>
+            <h3 className="Heading text-center">Our Value Proposition</h3>
             <div className="">
 
               <Collapse
@@ -51,7 +51,7 @@ const Accordion = () => {
                 bordered={false}
                 defaultActiveKey={["1"]}
                 expandIcon={({ isActive }) =>
-                  isActive ? <MinusOutlined className="icons"/> : <PlusOutlined className="icons"/>
+                  isActive ? <MinusOutlined className="icons "/> : <PlusOutlined className="icons"/>
                 }
                 expandIconPosition={"end"}
                 size="large"

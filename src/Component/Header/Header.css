@@ -8,6 +8,7 @@
   outline: 0 !important;
 }
 
+
 .stickyy {
   position: fixed;
   width: 100%;
@@ -59,18 +60,16 @@
   list-style: none;
   text-decoration: none !important;
   margin: 0;
-  font-family: var(--poppins);
-  font-size: 18px;
+  color: #D9D9D9;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
-  text-transform: uppercase;
   align-items: start;
 }
 
 .Nav-a {
   color: var(--black);
   text-decoration: none !important;
-  font-weight: 20px;
   font-weight: 500;
   padding: 10px;
 }

@@ -77,8 +77,8 @@ export default function ContactUsForm() {
   return (
     <>
       <div>
-        <div className="mx-[20px] md:mx-[60px] rounded-3xl bg-gradient-to-r from-purple-600 to-pink-600 my-[100px] md:my-[200px] xl:my-[303px]">
-          <div className="flex flex-col md:flex-row mx-[10px] md:mx-[30px] py-[10px] md:py-[20px] md:space-x-8">
+        <div className="mx-[20px] md:mx-[60px] rounded-3xl bg-gradient-to-r from-purple-600 to-pink-600 my-[70px] md:my-[70px]">
+          <div className="flex flex-col md:flex-row mx-[15px] md:mx-[30px] py-[18px] md:py-[20px] md:space-x-8">
             <div className="md:flex-1 text-white space-y-4 md:space-y-6 font-alegreyasans">
               <div className="text-3xl md:text-5xl font-bold leading-[50px] md:leading-[65px]">
                 Let&apos;s Discuss Your Next Project

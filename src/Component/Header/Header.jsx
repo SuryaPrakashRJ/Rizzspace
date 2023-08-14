@@ -50,47 +50,55 @@ let Header = () => {
     <>
       <header className={colorChange ? "stickyy active" : "stickyy"}>
         <div className="Nav-bar">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center ml-2 mt-3 md:ml-6">
             <Link to="/">
-              <div className="flex gap-3">
-                <img src={logo} className="h-[6vh] flex items-center justify-center" />
-                <div className="w-40 text-white text-[26px] font-bold tracking-wide">
+              <div className="flex gap-3 items-center">
+                <img
+                  src={logo}
+                  className="h-[6vh] flex items-center justify-center"
+                />
+                <div className="w-40 text-white text-[18px] md:text-[26px] font-bold tracking-wide logo-text ">
                   Rizzspace
                 </div>
               </div>
             </Link>
-            <ul className={isMobile ? "Nav-ul-Active" : "Nav-ul space-x-6"}>
-              <li className="Nav-li" id="1">
-                <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
-                  About
-                </Link>
-              </li>
-              <li className="Nav-li" id="2">
-                <Link to="/blog" className="Nav-a" onClick={() => autoClose()}>
-                  Blog
-                </Link>
-              </li>
-              <li className="Nav-li" id="3">
-                <Link to="/service" className="Nav-a" onClick={() => autoClose()}>
-                  Service
-                </Link>
-              </li>
+            <ul
+              className={
+                isMobile
+                  ? "Nav-ul-Active"
+                  : "Nav-ul ml-3 mt-3 space-x-6 flex items-center justify-center font-['Alegreya_Sans']"
+              }
+            >
+              <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
+                About
+              </Link>
+
+              <Link to="/blog" className="Nav-a" onClick={() => autoClose()}>
+                Blog
+              </Link>
+
+              <a href="#services" className="Nav-a">
+                Service
+              </a>
 
               <div className={isMobile ? "block" : "hidden"}>
                 <Link to="/contact">
-                  <button className="w-[196px] h-14 bg-white rounded">
-                    <p className="text-orange-500 text-[22px] font-medium tracking-wide font-['poppins']">CONTACT US</p>
+                  <button className="w-[176px] h-12 bg-white rounded">
+                    <p className="text-orange-500 text-[22px] font-medium tracking-wide font-['poppins']">
+                      Contact Us
+                    </p>
                   </button>
                 </Link>
               </div>
             </ul>
           </div>
 
-
-          <div className="hidden lg:block">
+          <div className="hidden lg:block mt-3">
             <Link to="/contact">
-              <button className="w-[196px] h-14 bg-white rounded">
-                <p className="text-orange-500 text-[22px] font-medium tracking-wide font-['poppins']">CONTACT US</p>
+              <button className="w-[176px] h-12 bg-white rounded">
+                <p className="text-orange-500 text-[18px] font-medium tracking-wide font-['poppins']">
+                  Contact Us
+                </p>
               </button>
             </Link>
           </div>
