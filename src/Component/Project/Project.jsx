@@ -51,7 +51,7 @@ const Project = () => {
             {TrainerData.map((e, index) => {
               return (
                 <>
-                  <div key={index} className="card my-5">
+                  <div key={index} className="card my-5 rounded-[4px]">
                     <img className="img-img" src={e.imgSrc} alt="GymImg" />
 
                     <div className="img-overlay">
