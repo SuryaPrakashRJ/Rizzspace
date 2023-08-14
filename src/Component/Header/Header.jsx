@@ -4,6 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState, useEffect } from "react";
 import { logo } from "../../assets/img";
 
+
 let Header = () => {
   let [isMobile, setisMobile] = useState(false);
   let [autoClosecomponent, setautoClosecomponent] = useState(false);
@@ -65,21 +66,28 @@ let Header = () => {
             <ul
               className={
                 isMobile
-                  ? "Nav-ul-Active"
+                  ? "Nav-ul-Active flex flex-col items-center justify-center font-['Alegreya_Sans']"
                   : "Nav-ul ml-3 mt-3 space-x-6 flex items-center justify-center font-['Alegreya_Sans']"
               }
             >
-              <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
-                About
-              </Link>
-
-              <Link to="/blog" className="Nav-a" onClick={() => autoClose()}>
-                Blog
-              </Link>
-
-              <a href="#services" className="Nav-a">
-                Service
-              </a>
+              <li className="Nav-li" id="1">
+                <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
+                  About
+                </Link>
+              </li>
+              <li className="Nav-li" id="2">
+                <Link to="/blog" className="Nav-a" onClick={() => autoClose()}>
+                  Blog
+                </Link>
+              </li>
+              <li className="Nav-li" id="3">
+                <a
+                  href="#services"
+                  className="Nav-a"
+                >
+                  Service
+                </a>
+              </li>
 
               <div className={isMobile ? "block" : "hidden"}>
                 <Link to="/contact">
