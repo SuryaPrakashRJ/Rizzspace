@@ -50,51 +50,47 @@ let Header = () => {
     <>
       <header className={colorChange ? "stickyy active" : "stickyy"}>
         <div className="Nav-bar">
-          <div className="Nav-logo-div flex items-center justify-center">
+          <div className="flex justify-center items-center">
             <Link to="/">
-              <div className="flex gap-4">
+              <div className="flex gap-3">
                 <img src={logo} className="h-[6vh] flex items-center justify-center" />
-                <div className="w-52 text-white text-[32px] font-bold tracking-wide">
+                <div className="w-40 text-white text-[26px] font-bold tracking-wide">
                   Rizzspace
                 </div>
               </div>
             </Link>
+            <ul className={isMobile ? "Nav-ul-Active" : "Nav-ul space-x-6"}>
+              <li className="Nav-li" id="1">
+                <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
+                  About
+                </Link>
+              </li>
+              <li className="Nav-li" id="2">
+                <Link to="/blog" className="Nav-a" onClick={() => autoClose()}>
+                  Blog
+                </Link>
+              </li>
+              <li className="Nav-li" id="3">
+                <Link to="/service" className="Nav-a" onClick={() => autoClose()}>
+                  Service
+                </Link>
+              </li>
+
+              <div className={isMobile ? "block" : "hidden"}>
+                <Link to="/contact">
+                  <button className="w-[196px] h-14 bg-white rounded">
+                    <p className="text-orange-500 text-[22px] font-medium tracking-wide font-['poppins']">CONTACT US</p>
+                  </button>
+                </Link>
+              </div>
+            </ul>
           </div>
-          <ul className={isMobile ? "Nav-ul-Active" : "Nav-ul"}>
-            <li className="Nav-li" id="1">
-              <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
-                About
-              </Link>
-            </li>
-            <li className="Nav-li" id="2">
-              <Link to="/blog" className="Nav-a" onClick={() => autoClose()}>
-                Blog
-              </Link>
-            </li>
-            <li className="Nav-li" id="3">
-              <Link to="/service" className="Nav-a" onClick={() => autoClose()}>
-                Service
-              </Link>
-            </li>
-           
 
-            <div className={isMobile ? "a" : "hidden"}>
-              <Link to="/contact">
-                <button className="btn learn-more">
-                  <span className="btnn circle" aria-hidden="true">
-                    <span className="icon arrow"></span>
-                  </span>
-                  <span className="btnn btn-text">Contact us</span>
-                </button>
-              </Link>
-            </div>
-          </ul>
-  
 
-          <div className={isMobile ? "hidden" : "block"}>
+          <div className="hidden lg:block">
             <Link to="/contact">
               <button className="w-[196px] h-14 bg-white rounded">
-                <p className="text-orange-500 text-[22px] font-medium tracking-wide">Contact Us</p>
+                <p className="text-orange-500 text-[22px] font-medium tracking-wide font-['poppins']">CONTACT US</p>
               </button>
             </Link>
           </div>
