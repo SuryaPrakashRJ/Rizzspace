@@ -1,7 +1,8 @@
 .card {
   width: 100%;
-  height: 400px;
+  height: fit-content;
   position: relative;
+  margin-bottom: 25px;
 }
 
 .img-img {

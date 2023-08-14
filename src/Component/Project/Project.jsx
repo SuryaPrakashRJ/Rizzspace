@@ -5,34 +5,18 @@ let TrainerData = [
   {
     id: 1,
     imgSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/1/15/800px-Talampaya_1.jpg",
-    trainerName: "Project Name",
-    trainDescription: "Project Des",
-    webSiteLink: "https://www.facebook.com/",
+      "./edu_engineering.png",
+    trainerName: "Edu Engineering",
+    trainDescription: "Ed-tech Platform for Engineering Students",
+    webSiteLink: "https://www.eduengineering.net",
   },
   {
     id: 2,
     imgSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/1/15/800px-Talampaya_1.jpg",
-    trainerName: "Project Name",
-    trainDescription: "Project Des",
-    webSiteLink: "https://www.facebook.com/",
-  },
-  {
-    id: 3,
-    imgSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/1/15/800px-Talampaya_1.jpg",
-    trainerName: "Project Name",
-    trainDescription: "Project Des",
-    webSiteLink: "https://www.facebook.com/",
-  },
-  {
-    id: 4,
-    imgSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/1/15/800px-Talampaya_1.jpg",
-    trainerName: "Project Name",
-    trainDescription: "Project Des",
-    webSiteLink: "https://www.facebook.com/",
+      "./Gomonetize.png",
+    trainerName: "Gomonetize",
+    trainDescription: "Digital Marketing Platform",
+    webSiteLink: "https://www.app.gomonetize.in/",
   },
 ];
 
@@ -51,9 +35,8 @@ const Project = () => {
             {TrainerData.map((e, index) => {
               return (
                 <>
-                  <div key={index} className="card my-5 rounded-[4px]">
+                  <div key={index} className="card rounded-[4px]">
                     <img className="img-img" src={e.imgSrc} alt="GymImg" />
-
                     <div className="img-overlay">
                       <span>
                         <h3 className="img-overlay-name text-center">
@@ -66,10 +49,14 @@ const Project = () => {
                         </h5>
                       </span>
                       <span className="flex justify-center items-center gap-5 py-4">
+                        <a href={e.webSiteLink} target="_blank" rel="noreferrer">
                         <BsFillArrowUpRightCircleFill
                           style={{ fontSize: "21px" }}
                           className="hover:fill-[var(--primary-color)]"
                         />
+
+                        </a>
+                       
                       </span>
                     </div>
                   </div>
