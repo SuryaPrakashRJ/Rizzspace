@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Puritan:wght@700&display=swap');
-
-
 @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Montserrat:wght@700;800;900&family=Nunito+Sans:opsz,wght@6..12,700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
 
 @tailwind base;
@@ -63,13 +61,16 @@
 }
 
 .Heading {
-  color: #fff;
   text-align: center;
-  font-family: 'Gill Sans MT';
-  font-size: 80px;
+  font-family: 'Gill Sans MT', sans-serif;
+  line-height: 120px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120px;
+  margin: 2rem 0;
+  background: linear-gradient(88deg, rgba(251,128,32,1) 30%, rgba(255,29,110,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Style for the checkbox label */
@@ -234,12 +235,14 @@ div.flex.flex-col
   }
 
   .Heading {
-    color: #fff;
     text-align: center;
-    font-family: 'Gill Sans MT';
+    font-family: 'Gill Sans MT', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 90px;
+    background: linear-gradient(88deg, rgba(251,128,32,1) 30%, rgba(255,29,110,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

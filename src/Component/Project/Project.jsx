@@ -18,6 +18,14 @@ let TrainerData = [
     trainDescription: "Digital Marketing Platform",
     webSiteLink: "https://www.app.gomonetize.in/",
   },
+  {
+    id: 3,
+    imgSrc:
+      "./incer.png",
+    trainerName: "Incer",
+    trainDescription: "Marketing Platform",
+    webSiteLink: "https://www.incer.in/",
+  },
 ];
 
 const Project = () => {
@@ -25,9 +33,9 @@ const Project = () => {
     <>
       <section className="py-10">
         <div className="2xl:container mx-auto">
-        <div className="grid grid-cols-1 w-[90%] mx-auto pb-14">
+        <div className="grid grid-cols-1 w-[90%] mx-auto">
             <div className="flex flex-col justify-center items-center text-center">
-              <h2 className="Heading py-2">OUR WORK</h2>
+              <h2 className="Heading font-medium">Our Works</h2>
             </div>
           </div>
 

@@ -5,7 +5,7 @@ import {faMobileButton,faCode,faChartSimple,faPalette,faScrewdriverWrench} from 
 function WhatWeOffer() {
   return (
     <div className="App">
-        <p className="headline font-['Puritan']">What We Offer</p>
+        <p className="Heading font-medium">What We Offer</p>
         <section className='FlexContainer'>
             <div className='flex-items one'>
               <div className='vetor-image'>

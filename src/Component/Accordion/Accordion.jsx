@@ -40,11 +40,11 @@ const Accordion = () => {
 
   return (
     <>
-      <section className="py-10 bg-[#000000]">
+      <section className=" bg-[#000000]">
         <div className="container mx-auto bg-[]">
           <div className="grid grid-cols-1 w-[90%] mx-auto">
             <h3 className="Heading text-center">OUR VALUE PROPOSITION</h3>
-            <div className="py-10">
+            <div className="">
 
               <Collapse
                 items={items}
