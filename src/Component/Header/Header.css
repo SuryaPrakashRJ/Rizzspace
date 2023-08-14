@@ -29,7 +29,7 @@
   margin: auto;
   min-height: 10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
 }
@@ -64,6 +64,7 @@
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  align-items: start;
 }
 
 .Nav-a {

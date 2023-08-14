@@ -9,3 +9,9 @@
   background: linear-gradient(90deg, #3c43ff 0%, #ff278f 100%);
   filter: blur(350px);
 }
+
+  .custom-radial-gradient {
+    background: radial-gradient(ellipse at 49% 38%, rgba(0, 0, 0, 1) 79%, #3C43FF 100%);
+    /* You can add more styling properties here */
+  }
+  

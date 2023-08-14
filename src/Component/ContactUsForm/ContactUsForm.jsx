@@ -88,6 +88,7 @@ export default function ContactUsForm() {
                   <label htmlFor="Name">Your Name</label>
                   <Input
                     className=" h-11 rounded-sm"
+                    required
                     onChange={(e) => handleName(e)}
                   />
                 </div>
@@ -95,12 +96,15 @@ export default function ContactUsForm() {
                   <label htmlFor="Email">Your Email</label>
                   <Input
                     className=" h-11 rounded-sm"
+                    type="email"
+                    required
                     onChange={(e) => handleEmail(e)}
                   />
                 </div>
                 <div className="flex flex-col">
                   <label htmlFor="Checkbox">Services</label>
                   <Checkbox.Group
+                  requied
                     className="w-full"
                     onChange={onChangeCheckbox}
                   >
@@ -152,6 +156,7 @@ export default function ContactUsForm() {
                 <div className="flex flex-col">
                   <label htmlFor="Message">Message</label>
                   <TextArea
+                    required
                     showCount
                     maxLength={1000}
                     style={{ height: 120, resize: "none" }}

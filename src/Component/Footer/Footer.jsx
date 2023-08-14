@@ -2,6 +2,7 @@ import axios from "axios";
 import "./Footer.css";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { logo } from "../../assets/img";
 const Footer = () => {
   const [newsMail, setNewsMail] = useState("");
   const [loading, setLoading] = useState(false);
@@ -61,8 +62,8 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[#262626] text-white">
-        <div className="mx-[70px] sm:mx-[100px]">
-          <div className="w-full max-w-screen-xl py-6 lg:py-8">
+        <div className="mx-[70px] sm:mx-[100px] ">
+          <div className="w-full l py-6 lg:py-8">
             <div className="flex flex-col space-y-4 md:flex-row md:justify-between">
               <div className="flex font-['Alegreya_Sans'] text-[22px] md:items-center md:w-3/6">
                 <p>
@@ -106,9 +107,9 @@ const Footer = () => {
                   className="flex items-center justify-center md:justify-start"
                 >
                   <img
-                    src="/logo.svg"
+                    src={logo}
                     className="h-10 w-10 md:h-14 md:w-14 mr-2"
-                    alt="Gomonetize Logo"
+                    alt="Rizzspace Logo"
                   />
                 </a>
                 <span className="text-xl md:text-2xl whitespace-nowrap font-['Puritan']">

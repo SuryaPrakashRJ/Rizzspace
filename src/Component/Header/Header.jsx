@@ -60,7 +60,6 @@ let Header = () => {
               </div>
             </Link>
           </div>
-
           <ul className={isMobile ? "Nav-ul-Active" : "Nav-ul"}>
             <li className="Nav-li" id="1">
               <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
@@ -77,6 +76,8 @@ let Header = () => {
                 Service
               </Link>
             </li>
+           
+
             <div className={isMobile ? "a" : "hidden"}>
               <Link to="/contact">
                 <button className="btn learn-more">
@@ -88,6 +89,7 @@ let Header = () => {
               </Link>
             </div>
           </ul>
+  
 
           <div className={isMobile ? "hidden" : "block"}>
             <Link to="/contact">
