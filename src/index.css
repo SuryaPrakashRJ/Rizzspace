@@ -155,7 +155,7 @@ div.flex.flex-col
 }
 
 .vetor-image{
-  display: flex;
+  
   justify-content: center;
   align-items: center;
   width: 60px;
