@@ -1,8 +1,8 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState, useEffect } from "react";
 import { logo } from "../../assets/img";
+import { HashLink as Link } from 'react-router-hash-link'
 
 
 let Header = () => {
@@ -63,11 +63,13 @@ let Header = () => {
                 </div>
               </div>
             </Link>
+          </div>
+          <div>
             <ul
               className={
                 isMobile
                   ? "Nav-ul-Active flex flex-col items-center justify-center font-['Alegreya_Sans']"
-                  : "Nav-ul ml-3 mt-3 space-x-6 flex items-center justify-center font-['Alegreya_Sans']"
+                  : "Nav-ul mt-3  flex items-center font-['Alegreya_Sans']"
               }
             >
               <li className="Nav-li" id="1">
@@ -81,35 +83,43 @@ let Header = () => {
                 </Link>
               </li>
               <li className="Nav-li" id="3">
-                <a
-                  href="#services"
+                <Link
+                  to="/#services"
                   className="Nav-a"
-                >
+                  smooth>
                   Service
-                </a>
+                </Link>
+              </li>
+              <li className="Nav-li" id="4">
+                <Link
+                  to="#"
+                  className="Nav-a"
+                  smooth>
+                  Community
+                </Link>
+              </li>
+              <li className="Nav-li" id="5">
+                <Link
+                  to="#"
+                  className="Nav-a"
+                  smooth>
+                  Career
+                </Link>
+              </li>
+              <li className="Nav-li" id="6">
+                <Link
+                  to="#"
+                  className="Nav-a"
+                  smooth>
+                  Works
+                </Link>
               </li>
 
-              <div className={isMobile ? "block" : "hidden"}>
-                <Link to="/contact">
-                  <button className="w-[176px] h-12 bg-white rounded">
-                    <p className="text-orange-500 text-[22px] font-medium tracking-wide font-['poppins']">
-                      Contact Us
-                    </p>
-                  </button>
-                </Link>
-              </div>
+
+
             </ul>
           </div>
 
-          <div className="hidden lg:block mt-3">
-            <Link to="/contact">
-              <button className="w-[176px] h-12 bg-white rounded">
-                <p className="text-orange-500 text-[18px] font-medium tracking-wide font-['poppins']">
-                  Contact Us
-                </p>
-              </button>
-            </Link>
-          </div>
 
           <button className="Nav-bar-icon" onClick={() => showSwitch()}>
             {isMobile ? (
