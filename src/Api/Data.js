@@ -29,17 +29,17 @@ export const OfferData = [
   {
     imgSrc: './icons/app-development.png',
     cardTitle: "App Development",
-    cardContent: "From concept to launch, our skilled app development team crafts seamless and innovative mobile and web applications"
+    cardContent: "From concept to launch, our skilled app development team crafts seamless and innovative mobile and web applications."
   },
   {
     imgSrc: "./icons/web-development.png",
     cardTitle: "Web Development",
-    cardContent: "We create responsive, user-friendly websites that combine stunning design with robust functionality to deliver an unparalleled user experience.s"
+    cardContent: "We create responsive, user-friendly websites that combine stunning design with robust functionality to deliver an unparalleled user experiences."
   },
   {
     imgSrc: "./icons/ui-design.png",
     cardTitle: "UI/UX Designing",
-    cardContent: "Our UI/UX designers turn user journeys into visually stunning and intuitive interfaces and elevating user engagement "
+    cardContent: "Our UI/UX designers turn user journeys into visually stunning and intuitive interfaces and elevating user engagement."
   },
   {
     imgSrc: "./icons/seo.png",

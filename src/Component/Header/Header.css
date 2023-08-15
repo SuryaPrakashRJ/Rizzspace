@@ -60,7 +60,7 @@
   list-style: none;
   text-decoration: none !important;
   margin: 0;
-  color: #D9D9D9;
+  color: gray;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -68,7 +68,7 @@
 }
 
 .Nav-li:hover {
-  color: gray;
+  color: white;
 }
 
 .Nav-a {

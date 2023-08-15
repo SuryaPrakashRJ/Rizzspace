@@ -65,12 +65,12 @@ const Footer = () => {
         <div className="mx-[70px] sm:mx-[100px] ">
           <div className="w-full l py-6 lg:py-8">
             <div className="flex flex-col space-y-4 md:flex-row md:justify-between">
-              <div className="flex font-['Alegreya_Sans'] text-[22px] md:items-center md:w-3/6">
+              <div className="flex font-['Alegreya_Sans'] text-[22px] md:items-center md:w-7/12">
                 <p>
                   Join our newsletter to keep up <br /> to date with us!
                 </p>
               </div>
-              <div className="md:w-3/6">
+              <div className="md:w-5/12">
                 <form className="rounded-sm">
                  
                   <div className="flex flex-col md:flex-row">

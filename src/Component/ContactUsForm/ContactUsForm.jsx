@@ -87,7 +87,7 @@ export default function ContactUsForm() {
                 <div className="flex flex-col">
                   <label htmlFor="Name">Your Name</label>
                   <Input
-                    className=" h-11 rounded-sm"
+                    className=" h-11 rounded-[6px]"
                     required
                     onChange={(e) => handleName(e)}
                   />
@@ -95,7 +95,7 @@ export default function ContactUsForm() {
                 <div className="flex flex-col">
                   <label htmlFor="Email">Your Email</label>
                   <Input
-                    className=" h-11 rounded-sm"
+                    className=" h-11 rounded-[6px]"
                     type="email"
                     required
                     onChange={(e) => handleEmail(e)}
@@ -172,10 +172,10 @@ export default function ContactUsForm() {
                   size="large"
                   onClick={handleSumbit}
                 >
-                  {loading ? <span>Sending...</span> : <span>Submit</span>}
+                  {loading ? <span>Sending...</span> : <span className="font-semibold">Submit</span>}
                 </Button>
               </div>
-            </div>
+            </div>    
             <div className="hidden lg:flex lg:flex-1 text-center items-center">
               <img
                 src="/ContactFormPic.svg"
