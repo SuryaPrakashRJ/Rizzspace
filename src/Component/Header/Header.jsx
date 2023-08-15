@@ -69,7 +69,7 @@ let Header = () => {
               className={
                 isMobile
                   ? "Nav-ul-Active flex flex-col items-center justify-center font-['Alegreya_Sans']"
-                  : "Nav-ul mt-3  flex items-center font-['Alegreya_Sans']"
+                  : "Nav-ul mt-3  flex items-center space-x-6 font-['Alegreya_Sans'] "
               }
             >
               <li className="Nav-li" id="1">

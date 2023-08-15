@@ -28,33 +28,33 @@ export const BlogData = [
 export const OfferData = [
   {
     imgSrc: "",
-    cardTitle: "Web Development",
-    cardContent: "CRM's and ERP Portfolio Development"
+    cardTitle: "App Development",
+    cardContent: "From concept to launch, our skilled app development team crafts seamless and innovative mobile and web applications"
   },
   {
     imgSrc: "",
     cardTitle: "Web Development",
-    cardContent: "CRM's and ERP Portfolio Development"
+    cardContent: "We create responsive, user-friendly websites that combine stunning design with robust functionality"
   },
   {
     imgSrc: "",
-    cardTitle: "Web Development",
-    cardContent: "CRM's and ERP Portfolio Development"
+    cardTitle: "UI/UX Designing",
+    cardContent: "Our UI/UX designers turn user journeys into visually stunning and intuitive interfaces and elevating user engagement "
   },
   {
     imgSrc: "",
-    cardTitle: "Web Development",
-    cardContent: "CRM's and ERP Portfolio Development"
+    cardTitle: "SEO & Digital Marketing",
+    cardContent: "Unlock the full potential of your online presence with our comprehensive SEO and digital marketing services. "
   },
   {
     imgSrc: "",
-    cardTitle: "Web Development",
-    cardContent: "CRM's and ERP Portfolio Development"
+    cardTitle: "Rebranding",
+    cardContent: "Embark on a journey of brand reinvention with our rebranding solutions. Uncover fresh perspectives, revitalize your image, and forge a stronger connection with your audience."
   },
   {
     imgSrc: "",
-    cardTitle: "Web Development",
-    cardContent: "CRM's and ERP Portfolio Development"
+    cardTitle: "Market Research",
+    cardContent: "Gain a deeper understanding of your industry, competitors, empowering you to make informed decisions and seize opportunities that propel your success."
   }
 ]
 

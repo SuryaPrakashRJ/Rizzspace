@@ -72,12 +72,7 @@ const Footer = () => {
               </div>
               <div className="md:w-3/6">
                 <form className="rounded-sm">
-                  <label
-                    htmlFor="website-admin"
-                    className="block mb-2 text-xs md:text-sm font-medium text-gray-900 dark:text-white"
-                  >
-                    Username
-                  </label>
+                 
                   <div className="flex flex-col md:flex-row">
                     <input
                       type="text"

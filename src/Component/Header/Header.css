@@ -50,7 +50,7 @@
 
 .Nav-ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 50%;
   height: 100%;
@@ -65,6 +65,10 @@
   font-weight: 400;
   text-align: center;
   align-items: start;
+}
+
+.Nav-li:hover {
+  color: gray;
 }
 
 .Nav-a {
