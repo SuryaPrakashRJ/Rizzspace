@@ -71,7 +71,7 @@
   font-style: normal;
   font-weight: 700;
   margin: 2rem 0;
-  background: linear-gradient(88deg, rgba(251,128,32,1) 30%, rgba(255,29,110,1) 100%);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -113,7 +113,7 @@ div.flex.flex-col
   font-style: normal;
   font-weight: 700;
   margin: 2rem 0;
-  background: linear-gradient(88deg, rgba(251,128,32,1) 30%, rgba(255,29,110,1) 100%);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -250,9 +250,6 @@ div.flex.flex-col
     font-size: 33px;
     font-style: normal;
     font-weight: 700;
-
-    background: linear-gradient(88deg, rgba(251,128,32,1) 30%, rgba(255,29,110,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
   }
 }

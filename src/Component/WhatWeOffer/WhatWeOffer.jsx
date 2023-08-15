@@ -15,8 +15,8 @@ const WhatWeOffer = () => {
                 <>
                   <div className="singleCards flex justify-center items-center ">
                     <div className="card min-h-[300px] w-auto flex flex-col justify-center items-center py-10 px-2 rounded-lg space-y-4">
-                      <div className="w-[100px] h-[100px] bg-zinc-700 rounded-full border border-black ">
-                        {e.imgSrc}
+                      <div className="w-[100px] h-[100px] rounded-full ">
+                        <img src={e.imgSrc} alt="" />
                       </div>
                       <div
                         className="space-y-4">

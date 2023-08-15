@@ -27,32 +27,32 @@ export const BlogData = [
 
 export const OfferData = [
   {
-    imgSrc: "",
+    imgSrc: './icons/app-development.png',
     cardTitle: "App Development",
     cardContent: "From concept to launch, our skilled app development team crafts seamless and innovative mobile and web applications"
   },
   {
-    imgSrc: "",
+    imgSrc: "./icons/web-development.png",
     cardTitle: "Web Development",
-    cardContent: "We create responsive, user-friendly websites that combine stunning design with robust functionality"
+    cardContent: "We create responsive, user-friendly websites that combine stunning design with robust functionality to deliver an unparalleled user experience.s"
   },
   {
-    imgSrc: "",
+    imgSrc: "./icons/ui-design.png",
     cardTitle: "UI/UX Designing",
     cardContent: "Our UI/UX designers turn user journeys into visually stunning and intuitive interfaces and elevating user engagement "
   },
   {
-    imgSrc: "",
+    imgSrc: "./icons/seo.png",
     cardTitle: "SEO & Digital Marketing",
     cardContent: "Unlock the full potential of your online presence with our comprehensive SEO and digital marketing services. "
   },
   {
-    imgSrc: "",
+    imgSrc: "./icons/brand.png",
     cardTitle: "Rebranding",
     cardContent: "Embark on a journey of brand reinvention with our rebranding solutions. Uncover fresh perspectives, revitalize your image, and forge a stronger connection with your audience."
   },
   {
-    imgSrc: "",
+    imgSrc: "./icons/market-research.png",
     cardTitle: "Market Research",
     cardContent: "Gain a deeper understanding of your industry, competitors, empowering you to make informed decisions and seize opportunities that propel your success."
   }
