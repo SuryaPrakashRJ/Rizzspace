@@ -1,12 +1,13 @@
-import { Data } from "../../Api/Card";
+import { BlogData } from "../../Api/Data";
 import {Link } from "react-router-dom";
+
 const Blog = () => {
   return (
     <>
       <section className="py-10 mt-16">
         <div className="2xl:container mx-auto">
           <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 ">
-            {Data.map((e) => {
+            {BlogData.map((e) => {
               return (
                 <>
                 <div className="flex justify-center items-center py-10 px-2">

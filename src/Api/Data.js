@@ -1,4 +1,4 @@
-export const Data = [
+export const BlogData = [
   {
     id: "1",
     title: "Basic of Git and Github",
@@ -33,13 +33,54 @@ export const OfferData = [
   },
   {
     imgSrc: "",
-    cardTitle: "Mobile App Development",
-    cardContent: `IOS/Android - Flutter`
+    cardTitle: "Web Development",
+    cardContent: "CRM's and ERP Portfolio Development"
   },
   {
     imgSrc: "",
-    cardTitle: "UI/UX Design",
-    cardContent: "User Stories UI/UX Design and User Testing"
-    //"User Stories and Scenarios Interaction Design Visual Design UI/UX Design User Testing"
+    cardTitle: "Web Development",
+    cardContent: "CRM's and ERP Portfolio Development"
+  },
+  {
+    imgSrc: "",
+    cardTitle: "Web Development",
+    cardContent: "CRM's and ERP Portfolio Development"
+  },
+  {
+    imgSrc: "",
+    cardTitle: "Web Development",
+    cardContent: "CRM's and ERP Portfolio Development"
+  },
+  {
+    imgSrc: "",
+    cardTitle: "Web Development",
+    cardContent: "CRM's and ERP Portfolio Development"
   }
 ]
+
+export const ProjectData = [
+  {
+    id: 1,
+    imgSrc:
+      "./edu_engineering.jpg",
+    trainerName: "Edu Engineering",
+    trainDescription: "Ed-tech Platform for Engineering Students",
+    webSiteLink: "https://www.eduengineering.net",
+  },
+  {
+    id: 2,
+    imgSrc:
+      "./Gomonetize.png",
+    trainerName: "Gomonetize",
+    trainDescription: "Digital Marketing Platform",
+    webSiteLink: "https://www.app.gomonetize.in/",
+  },
+  {
+    id: 3,
+    imgSrc:
+      "./incer.png",
+    trainerName: "Incer",
+    trainDescription: "Marketing Platform",
+    webSiteLink: "https://www.incer.in/",
+  },
+];

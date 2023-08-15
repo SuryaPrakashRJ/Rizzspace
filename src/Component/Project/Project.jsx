@@ -1,32 +1,7 @@
 import "./Project.css";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
+import { ProjectData } from "../../Api/Data";
 
-let TrainerData = [
-  {
-    id: 1,
-    imgSrc:
-      "./edu_engineering.jpg",
-    trainerName: "Edu Engineering",
-    trainDescription: "Ed-tech Platform for Engineering Students",
-    webSiteLink: "https://www.eduengineering.net",
-  },
-  {
-    id: 2,
-    imgSrc:
-      "./Gomonetize.png",
-    trainerName: "Gomonetize",
-    trainDescription: "Digital Marketing Platform",
-    webSiteLink: "https://www.app.gomonetize.in/",
-  },
-  {
-    id: 3,
-    imgSrc:
-      "./incer.png",
-    trainerName: "Incer",
-    trainDescription: "Marketing Platform",
-    webSiteLink: "https://www.incer.in/",
-  },
-];
 
 const Project = () => {
   return (
@@ -40,7 +15,7 @@ const Project = () => {
           </div>
 
           <div className="grid grid-cols-1 w-[90%] mx-auto">
-            {TrainerData.map((e, index) => {
+            {ProjectData.map((e, index) => {
               return (
                 <>
                   <div key={index} className="card rounded-[4px]">
