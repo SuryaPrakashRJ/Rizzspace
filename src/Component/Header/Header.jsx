@@ -86,6 +86,7 @@ let Header = () => {
                 <Link
                   to="/#services"
                   className="Nav-a"
+                  onClick={() => autoClose()}
                   smooth>
                   Service
                 </Link>
@@ -94,6 +95,7 @@ let Header = () => {
                 <Link
                   to="#"
                   className="Nav-a"
+                  onClick={() => autoClose()}
                   smooth>
                   Community
                 </Link>
@@ -102,6 +104,7 @@ let Header = () => {
                 <Link
                   to="#"
                   className="Nav-a"
+                  onClick={() => autoClose()}
                   smooth>
                   Career
                 </Link>
@@ -110,13 +113,11 @@ let Header = () => {
                 <Link
                   to="#"
                   className="Nav-a"
+                  onClick={() => autoClose()}
                   smooth>
                   Works
                 </Link>
               </li>
-
-
-
             </ul>
           </div>
 
