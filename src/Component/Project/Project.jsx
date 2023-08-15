@@ -5,7 +5,7 @@ let TrainerData = [
   {
     id: 1,
     imgSrc:
-      "./edu_engineering.png",
+      "./edu_engineering.jpg",
     trainerName: "Edu Engineering",
     trainDescription: "Ed-tech Platform for Engineering Students",
     webSiteLink: "https://www.eduengineering.net",
