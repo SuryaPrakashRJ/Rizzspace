@@ -63,12 +63,12 @@ const Accordion = () => {
     },
     {
       key: "3",
-      label: "Timely Delivery Without Compromising Quality",
+      label: "Timely Delivery",
       children: text3,
     },
     {
       key: "4",
-      label:"Partnering for Long-Term Success and Growth",
+      label:"Long-Term Success and Growth",
       children: text4,
     }
   ];
