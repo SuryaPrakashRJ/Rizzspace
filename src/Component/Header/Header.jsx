@@ -82,7 +82,7 @@ let Header = () => {
                 </Link>
               </li>
               <li className="Nav-li" id="3">
-                <Link to="/#services" className="Nav-a" smooth>
+                <Link to="/#services" className="Nav-a" smooth onClick={() => autoClose()}>
                   Service
                 </Link>
               </li>
@@ -91,12 +91,13 @@ let Header = () => {
                 <Link
                   to="#"
                   className="Nav-a"
+                  onClick={() => autoClose()}
                   smooth>
                   Career
                 </Link>
               </li> */}
               <li className="Nav-li" id="6">
-                <Link to="#our_works" className="Nav-a" smooth>
+                <Link to="#our_works" className="Nav-a" smooth onClick={() => autoClose()}>
                   Works
                 </Link>
               </li>
