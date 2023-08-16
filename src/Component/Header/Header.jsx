@@ -2,8 +2,7 @@ import "./Header.css";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState, useEffect } from "react";
 import { logo } from "../../assets/img";
-import { HashLink as Link } from 'react-router-hash-link'
-
+import { HashLink as Link } from "react-router-hash-link";
 
 let Header = () => {
   let [isMobile, setisMobile] = useState(false);
@@ -72,54 +71,42 @@ let Header = () => {
                   : "Nav-ul mt-3  flex items-center space-x-6 font-['Inter'] "
               }
             >
-              <li className="Nav-li" id="1">
+              {/* <li className="Nav-li" id="1">
                 <Link to="/about" className="Nav-a" onClick={() => autoClose()}>
                   About
                 </Link>
-              </li>
+              </li> */}
               <li className="Nav-li" id="2">
                 <Link to="/blog" className="Nav-a" onClick={() => autoClose()}>
                   Blog
                 </Link>
               </li>
               <li className="Nav-li" id="3">
-                <Link
-                  to="/#services"
-                  className="Nav-a"
-                  smooth>
+                <Link to="/#services" className="Nav-a" smooth>
                   Service
                 </Link>
               </li>
-              <li className="Nav-li" id="4">
-                <Link
-                  to="#"
-                  className="Nav-a"
-                  smooth>
-                  Community
-                </Link>
-              </li>
-              <li className="Nav-li" id="5">
+
+              {/* <li className="Nav-li" id="5">
                 <Link
                   to="#"
                   className="Nav-a"
                   smooth>
                   Career
                 </Link>
-              </li>
+              </li> */}
               <li className="Nav-li" id="6">
-                <Link
-                  to="#"
-                  className="Nav-a"
-                  smooth>
+                <Link to="#our_works" className="Nav-a" smooth>
                   Works
                 </Link>
               </li>
-
-
-
+              <li className="Nav-li" id="4">
+                <Link to="#" className="Nav-a" smooth>
+                  Community
+                </Link>
+              </li>
             </ul>
           </div>
-
 
           <button className="Nav-bar-icon" onClick={() => showSwitch()}>
             {isMobile ? (

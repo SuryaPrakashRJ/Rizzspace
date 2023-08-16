@@ -96,7 +96,7 @@ const Footer = () => {
 
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="md:flex md:justify-between font-['Alegreya_Sans']">
-              <div className="mb-4 md:mb-0 flex flex-col text-center md:text-left space-y-3">
+              <div className="mb-4 md:mb-0 flex flex-col text-center items-center justify-center w-full  space-y-3">
                 <a
                   href="https://rizzspace.com/"
                   className="flex items-center justify-center md:justify-start"
@@ -118,7 +118,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 space-x-7">
+              {/* <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 space-x-7">
                 <div>
                   <ul className=" font-medium space-y-5">
                     <li>
@@ -175,7 +175,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="mt-4 text-center sm:flex sm:items-center sm:justify-between">

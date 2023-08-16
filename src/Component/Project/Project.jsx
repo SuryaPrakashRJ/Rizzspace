@@ -5,7 +5,7 @@ import { ProjectData } from "../../Api/Data";
 
 const Project = () => {
   return (
-    <>
+    <div id='our_works'>
       <section className="md:py-10">
         <div className="2xl:container mx-auto">
         <div className="md:grid md:grid-cols-1 w-[90%] mx-auto">
@@ -49,7 +49,7 @@ const Project = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
