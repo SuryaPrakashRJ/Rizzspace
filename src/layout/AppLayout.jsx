@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Footer from "./Footer/Footer";
-import Header from "./Header/Header";
+import Header from "../Component/Header/Header";
+import Footer from "../Component/Footer/Footer";
 
-const App = () => {
+const AppLayout = () => {
   let location = useLocation();
 
   useEffect(() => {
@@ -22,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AppLayout;

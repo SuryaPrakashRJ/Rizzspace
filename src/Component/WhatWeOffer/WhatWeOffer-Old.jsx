@@ -1,5 +1,3 @@
-
-
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faMobileButton,faCode,faChartSimple,faPalette,faScrewdriverWrench} from '@fortawesome/free-solid-svg-icons'
 

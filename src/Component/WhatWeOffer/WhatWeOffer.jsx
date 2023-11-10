@@ -18,8 +18,7 @@ const WhatWeOffer = () => {
                       <div className="w-[100px] h-[100px] rounded-full ">
                         <img src={e.imgSrc} alt="" />
                       </div>
-                      <div
-                        className="space-y-4">
+                      <div className="space-y-4">
                         <div className="text-white text-[25px] lg:text-[34px] font-semibold font-[Inter] leading-10 text-center break-words min-h-fit ">
                           {e.cardTitle}
                         </div>

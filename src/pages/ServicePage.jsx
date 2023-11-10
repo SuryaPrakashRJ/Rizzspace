@@ -1,9 +1,7 @@
-import Service from "../Component/ServicePage/Service"
+import Service from "../Component/ServicePage/Service";
 
 const ServicePage = () => {
-  return (
-    <Service/>
-  )
-}
+  return <Service />;
+};
 
-export default ServicePage
+export default ServicePage;
