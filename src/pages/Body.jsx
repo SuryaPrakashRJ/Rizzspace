@@ -3,7 +3,7 @@ import HeroSection from "../component/HeroSection/HeroSection";
 import ContactUsForm from "../component/ContactUsForm/ContactUsForm";
 import WhatWeOffer from "../component/WhatWeOffer/WhatWeOffer";
 import Moral from "../component/Moral/Moral";
-import Project from "../Component/Project/Project";
+import Project from "../component/Project/Project";
 
 const Body = () => {
   return (
