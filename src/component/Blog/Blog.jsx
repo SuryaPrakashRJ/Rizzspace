@@ -1,5 +1,5 @@
-import { BlogData } from "../../Api/Data";
 import {Link } from "react-router-dom";
+import { BlogData } from "../../api/Data";
 
 const Blog = () => {
   return (

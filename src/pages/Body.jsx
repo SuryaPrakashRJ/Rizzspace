@@ -1,8 +1,8 @@
-import Accordion from "../Component/Accordion/Accordion";
-import HeroSection from "../Component/HeroSection/HeroSection";
-import ContactUsForm from "../Component/ContactUsForm/ContactUsForm";
-import WhatWeOffer from "../Component/WhatWeOffer/WhatWeOffer";
-import Moral from "../Component/Moral/Moral";
+import Accordion from "../component/Accordion/Accordion";
+import HeroSection from "../component/HeroSection/HeroSection";
+import ContactUsForm from "../component/ContactUsForm/ContactUsForm";
+import WhatWeOffer from "../component/WhatWeOffer/WhatWeOffer";
+import Moral from "../component/Moral/Moral";
 import Project from "../Component/Project/Project";
 
 const Body = () => {
