@@ -2,7 +2,7 @@ import { lazy, Suspense } from "react";
 import AppLayout from "../layout/AppLayout";
 
 const LazyBody = lazy(() => import("../pages/Body"));
-const LazyTermCondition = lazy(() => import("../component/TermAndCondition/TermCondition"));
+const LazyTermConditions = lazy(() => import("../component/TermAndCondition/TermCondition"));
 const LazyPrivacyPolicy = lazy(() => import("../component/PrivacyPolicy/PrivacyPolicy"));
 const LazyServicePage = lazy(() => import("../pages/ServicePage"));
 const LazyBlogPage = lazy(() => import("../pages/BlogPage"));
@@ -50,7 +50,7 @@ const routes = [
         path: "/terms-and-condition",
         element: (
           <Suspense fallback={"Loading TermCondition..."}>
-            <LazyTermCondition />
+            <LazyTermConditions />
           </Suspense>
         ),
       },
