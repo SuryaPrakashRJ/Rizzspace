@@ -1,4 +1,4 @@
-import Service from "../Component/ServicePage/Service";
+import Service from "../component/ServicePage/Service";
 
 const ServicePage = () => {
   return <Service />;

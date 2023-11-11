@@ -1,5 +1,5 @@
 import "./WhatWeOffer.css";
-import { OfferData } from "../../Api/Data";
+import { OfferData } from "../../api/Data";
 
 const WhatWeOffer = () => {
   return (

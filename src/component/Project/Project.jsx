@@ -1,7 +1,6 @@
 import "./Project.css";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
-import { ProjectData } from "../../Api/Data";
-
+import { ProjectData } from "../../api/Data";
 
 const Project = () => {
   return (
