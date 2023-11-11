@@ -1,13 +1,13 @@
 import { lazy, Suspense } from "react";
 import AppLayout from "../layout/AppLayout";
 
-const LazyError = lazy(() => import("./Component/Error/Error"));
-const LazyBody = lazy(() => import("./pages/Body"));
-const LazyTermCondition = lazy(() => import("./Component/TermAndCondition/TermCondition"));
-const LazyPrivacyPolicy = lazy(() => import("./Component/PrivacyPolicy/PrivacyPolicy"));
-const LazyServicePage = lazy(() => import("./pages/ServicePage"));
-const LazyBlogPage = lazy(() => import("./pages/BlogPage"));
-const LazyAboutPage = lazy(() => import("./pages/AboutPage"));
+const LazyError = lazy(() => import("../component/Error/Error"));
+const LazyBody = lazy(() => import("../pages/Body"));
+const LazyTermCondition = lazy(() => import("../component/TermAndCondition/TermCondition"));
+const LazyPrivacyPolicy = lazy(() => import("../component/PrivacyPolicy/PrivacyPolicy"));
+const LazyServicePage = lazy(() => import("../pages/ServicePage"));
+const LazyBlogPage = lazy(() => import("../pages/BlogPage"));
+const LazyAboutPage = lazy(() => import("../pages/AboutPage"));
 
 const routes = [
   {
@@ -68,7 +68,7 @@ const routes = [
         <LazyError />
       </Suspense>
     ),
-  },
+  }
 ];
 
 export default [...routes];

@@ -1,1 +1,1 @@
-export const logo = "https://res.cloudinary.com/dsq5spft3/image/upload/v1691309297/Rizzspace/logo.svg";
+export const logo = "https://ik.imagekit.io/4z8covdo9/Rizzspace/LOGO.svg?updatedAt=1699635668143";
