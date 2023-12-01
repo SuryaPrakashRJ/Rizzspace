@@ -73,7 +73,7 @@ export const ProjectData = [
       "./Gomonetize.png",
     trainerName: "Gomonetize",
     trainDescription: "Digital Marketing Platform",
-    webSiteLink: "https://www.app.gomonetize.in/",
+    webSiteLink: "https://www.gomonetize.in/",
   },
   {
     id: 3,
